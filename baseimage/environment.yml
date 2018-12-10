@@ -1,7 +1,8 @@
-name: env
+name: default
 channels:
   - defaults
 dependencies:
+  - python=3.6
   - ca-certificates=2018.03.07=0
   - certifi=2018.10.15=py36_0
   - libedit=3.1.20170329=h6b74fdf_2
