@@ -12,5 +12,5 @@ ENV PATH /opt/conda/envs/base/bin:$PATH
 RUN echo $PATH
 RUN conda env list
 
-ENTRYPOINT [ "/bin/bash","cat" ]
+ENTRYPOINT ls
 
